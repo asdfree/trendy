@@ -123,10 +123,11 @@ des <-
 		nest = TRUE
 	)
 
-# fake_psu should be a one-record-per-person vector object
-# that can immediately be appended onto your data set.
-fake_psu <- kmeans( your.replicate.weights , 20 )
-des <- svydesign( id = ~ your_fake_psus , strata = ~ year , data = y , weights = ~ weight , nest = TRUE )
+# # fake_psu should be a one-record-per-person vector object
+# # that can immediately be appended onto your data set.
+
+# fake_psu <- kmeans( your.replicate.weights , 20 )
+# des <- svydesign( id = ~ your_fake_psus , strata = ~ year , data = y , weights = ~ weight , nest = TRUE )
 # immediately remove records with missing smoking status
 des_ns <- subset( des , !is.na( rode_with_drunk_driver ) )
 
