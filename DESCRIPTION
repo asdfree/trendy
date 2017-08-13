@@ -6,7 +6,7 @@ Author: Anthony Joseph Damico
 Maintainer: Anthony Joseph Damico <ajdamico@gmail.com>
 Description: A continuous integration package.
 License: GPL-3
-Imports: segmented	# determine segmented relationships in regression models, downloader	# downloads and then runs the source( function on scripts from github, plyr 		# contains the rbind.fill( function, which stacks two data frames even if they don't contain the same columns.  the rbind( function does not do this, survey 	# load survey package (analyzes complex design surveys, ggplot2	# load ggplot2 package (plots data according to the grammar of graphics, ggthemes	# load extra themes, scales, and geoms for ggplot2, texreg		# converts output to latex tables		
+Imports: survey, lodown, segmented	# determine segmented relationships in regression models, ggplot2	# load ggplot2 package (plots data according to the grammar of graphics, ggthemes	# load extra themes, scales, and geoms for ggplot2, texreg		# converts output to latex tables		
 Encoding: UTF-8
 LazyData: true
 Remotes: ajdamico/lodown
