@@ -6,7 +6,7 @@ Author: Anthony Joseph Damico
 Maintainer: Anthony Joseph Damico <ajdamico@gmail.com>
 Description: A continuous integration package.
 License: GPL-3
-Imports: survey, lodown, segmented	# determine segmented relationships in regression models, ggplot2	# load ggplot2 package (plots data according to the grammar of graphics, ggthemes	# load extra themes, scales, and geoms for ggplot2, texreg		# converts output to latex tables		
+Imports: survey, lodown, segmented, ggplot2, ggthemes, texreg
 Encoding: UTF-8
 LazyData: true
 Remotes: ajdamico/lodown

@@ -15,12 +15,11 @@ lodown( "yrbss" , yrbss_cat )
 # install.packages( c( "segmented" , "ggplot2" , "ggthemes" , "texreg" ) )
 
 # Muggeo V. (2008) Segmented: an R package to fit regression models with broken-line relationships. R News, 8, 1: 20-25.
-library(segmented)	# determine segmented relationships in regression models
+library(segmented)
 
-library(ggplot2)	# load ggplot2 package (plots data according to the grammar of graphics)
-library(ggthemes)	# load extra themes, scales, and geoms for ggplot2
-library(texreg)		# converts output to latex tables		
-
+library(ggplot2)
+library(ggthemes)
+library(texreg)
 
 # initiate an empty `y` object
 y <- NULL
