@@ -213,6 +213,10 @@ ggplot( means_for_joinpoint , aes( x = yr , y = mean ) ) +
 means_for_joinpoint$wgt <- with( means_for_joinpoint, ( mean / se ) ^ 2 ) 
 # estimate the 'starting' linear model with the usual "lm" function using the log values and the weights.
 o <- lm( log( mean ) ~ yr , weights = wgt , data = means_for_joinpoint )
+# the segmented() function uses a random process in its algorithm.
+# setting the random seed ensures reproducibility
+set.seed( 2015 )
+
 # add a segmented variable (`yr` in this example) with 1 breakpoint
 os <- segmented( o , ~yr )
 
