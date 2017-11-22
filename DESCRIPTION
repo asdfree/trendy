@@ -1,12 +1,12 @@
-Package: chapter_tag
+Package: trendy
 Type: Package
-Title: chapter_tag
+Title: trendy
 Version: 0.1.0
 Author: Anthony Joseph Damico
 Maintainer: Anthony Joseph Damico <ajdamico@gmail.com>
-Description: A continuous integration package, tested on asdfree_file_commit lodown_file_commit
+Description: A continuous integration package, tested on ajdamico/asdfree commit b13abd3b7aff66d4e8c45627ad71ab8124070def 
 License: GPL-3
-Imports: needed_libraries
+Imports: survey, lodown, segmented, ggplot2, ggthemes, texreg
 Encoding: UTF-8
 LazyData: true
 Remotes: ajdamico/lodown
