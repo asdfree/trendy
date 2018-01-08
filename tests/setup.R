@@ -11,7 +11,7 @@ yrbss_cat <- get_catalog( "yrbss" , output_dir = file.path( path.expand( "~" ) ,
 yrbss_cat <- subset( yrbss_cat , year %in% seq( 2005 , 2015 , 2 ) )
 
 # download the yrbss microdata
-
+lodown( "yrbss" , yrbss_cat )
 # install.packages( c( "segmented" , "ggplot2" , "ggthemes" , "texreg" ) )
 
 # Muggeo V. (2008) Segmented: an R package to fit regression models with broken-line relationships. R News, 8, 1: 20-25.
