@@ -1,5 +1,6 @@
-options("lodown.cachaca.savecache"=FALSE)
+if ( .Platform$OS.type == 'windows' ) memory.limit( 256000 )
 
+options("lodown.cachaca.savecache"=FALSE)
 options( survey.lonely.psu = "adjust" )
 
 library(survey)
