@@ -1,7 +1,7 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: r
-cache: false
+cache: packages
 sudo: required
 apt_packages:
 - unixodbc-dev
@@ -23,6 +23,7 @@ after_failure:
 r_github_packages:
  - jimhester/archive
  - ajdamico/lodown
+
 
 before_install:
 # shutdown servies on Travis, which may have a memory impact
