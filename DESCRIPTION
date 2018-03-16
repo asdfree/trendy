@@ -6,6 +6,5 @@ Author: Anthony Joseph Damico
 Maintainer: Anthony Joseph Damico <ajdamico@gmail.com>
 Description: testing
 License: GPL-3
-Imports: RCurl
 Encoding: UTF-8
 LazyData: true
