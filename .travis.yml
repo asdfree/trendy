@@ -6,7 +6,6 @@ sudo: required
 apt_packages:
 - unixodbc-dev
 - libarchive-dev
-- libssl1.0.0
 # needs_7za_install
 
 script: 
