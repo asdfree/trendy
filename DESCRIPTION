@@ -4,7 +4,9 @@ Title: trendy
 Version: 0.1.0
 Author: Anthony Joseph Damico
 Maintainer: Anthony Joseph Damico <ajdamico@gmail.com>
-Description: testing
+Description: A continuous integration package, tested on ajdamico/asdfree commit a5fff1c149f138e80cf158b7e4a8a0a0ac827fba 
 License: GPL-3
+Imports: survey, lodown, segmented, ggplot2, ggthemes, texreg
 Encoding: UTF-8
 LazyData: true
+Remotes: ajdamico/lodown
